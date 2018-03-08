@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <!--<link href="login_page_layout.css" rel="stylesheet" />-->
+    <link href="register.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div class="main body">
+        <div class="firstpage">
+            <div class="image">
+                <img src="loginpic.png" height="110%" width="40%" />
+            </div>
+            
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            
+            <form action="register.php" method="POST">
+                <div class="textbox">
+                    <div class="input-group">
+                        <input type="text" maxlength="30" name="username" value="<?php if(isset($username)){echo $username;}?>" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <br>
+                <br>
+
+
+                <div class="textbox">
+                    <div class="input-group">
+                        <!--<span class="input-group-addon" id="basic-addon1">Username</span>-->
+                        <input type="password" name="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <br>
+                <br>
+
+                <div class="textbox">
+                    <div class="input-group">
+                        <!--<span class="input-group-addon" id="basic-addon1">Username</span>-->
+                        <input type="password" name="password_again" class="form-control" placeholder="Password Again" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <br>
+                <br>
+
+                <div class="textbox">
+                    <div class="input-group">
+                        <input type="text" name="firstname" maxlength="30" value="<?php if(isset($firstname)){echo $firstname;}?>" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <br>
+                <br>
+
+                <div class="textbox">
+                    <div class="input-group">
+                        <input type="text"  name="surname" maxlength="30" value="<?php if(isset($surname)){echo $surname;}?>" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <br>
+                <br>
+
+                <div class="textbox">
+                    <div class="input-group">
+                        <input type="text" name="mobile" maxlength="10" value="<?php if(isset($mobile)){echo $mobile;}?>" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <br>
+                <br>
+
+                <div class="textbox">
+                    <div class="input-group">
+                        <input type="text"name="email" maxlength="40" value="<?php if(isset($email)){echo $email;}?>" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br />
+                <button type="submit" class="btn btn-primary">Register</button>
+                
+               </form>
+        </div>
+    </div>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>
+

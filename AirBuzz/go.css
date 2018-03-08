@@ -1,0 +1,70 @@
+﻿.firstpage {
+    height: 733px;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url("go.jpg");
+    background-size: 100% 115%;
+    padding-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    display: inline-block;
+    color:black;
+
+}
+
+.numperson {
+    height: 30px;
+    width: 300px;
+    /*border: 1px solid black;*/
+    display: inline-block;
+}
+
+.person_block {
+    height: 75px;
+    width: 300px;
+    /*border: 1px solid black;*/
+    display: inline-block;
+}
+
+.flight_block .image {
+    height: 2%;
+    width: 2%;
+    border: 10px solid black;
+    margin-top: 3%;
+    display: inline-block;
+}
+
+.firstpage .textbox {
+    height: 10px;
+    width: 100%;
+    /*border: 1px solid black;*/
+    display: inline-block;
+    text-align: left;
+    font-size: 17px;
+}
+
+.firstpage .buttonbox {
+    height: 9%;
+    width: 9%;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.main {
+
+    display: inline-block;
+    height:auto;
+    margin-bottom:0;
+    width: 70%;
+    border: 1px solid black;
+}
+
+.details{
+    display:inline-block;
+    height:auto;
+    margin-bottom:0;
+    width: 70%;
+    color:rgb(62, 59, 59);
+                    
+    /*border: 1px solid black;*/
+}

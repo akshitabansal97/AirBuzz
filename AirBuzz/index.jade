@@ -1,0 +1,67 @@
+main
+  h1 Checkout
+  p Select one of these payment methods
+  .alternate-payment
+    button.btn.btn-paypal(type='button') Paypal
+    button.btn.btn-coinbase(type='button') Coinbase
+  p Or enter your credit card information
+  form.ccjs-card
+    .row
+      fieldset.number
+        label.ccjs-number
+          | Card Number
+          input.ccjs-number(name='cc-number', placeholder='•••• •••• •••• ••••')
+       fieldset.security
+        label.ccjs-csc
+          | Security Code
+          input.ccjs-csc(name='csc', placeholder='•••')
+       //button.ccjs-csc-help(type='button') ?
+    .row
+      fieldset.name
+        label.ccjs-name
+          | Name on Card
+          input.ccjs-name(name='cc-name', placeholder='John Dough')
+      fieldset.ccjs-expiration
+        legend.expiration Expiration
+        .row
+          select.ccjs-month(name='month')
+            option(selected='', disabled='') MM
+            option(value='01') 01
+            option(value='02') 02
+            option(value='03') 03
+            option(value='04') 04
+            option(value='05') 05
+            option(value='06') 06
+            option(value='07') 07
+            option(value='08') 08
+            option(value='09') 09
+            option(value='10') 10
+            option(value='11') 11
+            option(value='12') 12
+          select.ccjs-year(name='year')
+            option(selected='', disabled='') YY
+            option(value='15') 15
+            option(value='16') 16
+            option(value='17') 17
+            option(value='18') 18
+            option(value='19') 19
+            option(value='20') 20
+            option(value='21') 21
+            option(value='22') 22
+            option(value='23') 23
+            option(value='24') 24
+            option(value='25') 25
+    select.ccjs-hidden-card-type(name='card-type')
+      option.ccjs-amex(value='amex') American Express
+      option.ccjs-discover(value='discover') Discover
+      option.ccjs-mastercard(value='mastercard') MasterCard
+      option.ccjs-visa(value='visa') Visa
+      option.ccjs-diners-club(value='diners-club') Diners Club
+      option.ccjs-jcb(value='jcb') JCB
+      // <option value="laser" class="laser">Laser</option>
+      // <option value="maestro" class="maestro">Maestro</option>
+      // <option value="unionpay" class="unionpay">UnionPay</option>
+      // <option value="visa-electron" class="visa-electron">Visa Electron</option>
+      // <option value="dankort" class="dankort">Dankort</option>
+
+   button.btn.btn-primary(type='button') Checkout

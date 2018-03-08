@@ -1,0 +1,114 @@
+﻿.firstpage {
+    height: 733px;
+    width: 100%;
+    border: 1px solid black;
+    background-image:url("firstpagebackground.jpg");
+    background-size:117% 111%;
+    padding-top: 0;
+    margin-bottom:0;
+}
+
+.firstpage_remaning {
+    height: 600px;
+    width: 100%;
+    /*border: 10px solid black;*/
+    text-align: center;
+    vertical-align:middle;
+    /*text-shadow:0px 0px 10px rgb(33, 44, 106);*/
+}
+
+.tittle {
+    height: auto;
+    width: auto;
+    margin-top:12%;
+    /*border: 1px solid black;*/
+    display: inline-block;
+    float:none;
+    vertical-align:middle;
+}
+
+.htittle{
+     font-size:500%;
+}
+
+.tagline {
+    height: auto;
+    width: auto;
+    /*border: 1px solid black;*/
+    margin-bottom:18%;
+}
+
+/*Second page*/
+
+.secondpage {
+    height: 730px;
+    width: auto;
+    border: 1px solid black;
+    margin-top: 0;
+    text-align:center;
+}
+.triptype {
+    margin-top:10%;
+    height: 5%;
+    width: 100%;
+    border: 1px solid black;
+    text-align:center;
+    display:inline-block;
+
+
+}
+
+    .triptype .buttonstyle {
+        height: 5%;
+        width: 20%;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: inline-block;
+    }
+
+.cityname {
+    height: 15%;
+    width: 100%;
+    border: 1px solid black;
+    text-align:center;
+    display:inline-block;
+    /*vertical-align:middle;*/
+
+}
+    .cityname .block {
+        height: 100%;
+        text-align:left;
+        width: 15%;
+        border: 1px solid black;
+        display:inline-block;
+        font-size:200%;
+
+    }
+    .cityname .img {
+        height: 50%;
+        width: 4%;
+        border: 1px solid black;
+        display:inline-block; 
+        /*vertical-align:middle;
+        float:none;*/
+        /*margin-top:2%;*/
+    }
+
+.numpersons {
+    height: 10%;
+    width: 100%;
+    border: 1px solid black;
+}
+.dateselect{
+    height: 39.5%;
+    width: auto;
+    border: 1px solid black;
+}
+    
+.thirdpage{
+    height: 730px;
+    width: auto;
+    border: 1px solid black;
+    margin-top: 0;
+    text-align:center;
+}

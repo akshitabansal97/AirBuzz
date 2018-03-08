@@ -1,0 +1,108 @@
+
+
+/*Second page*/
+
+.secondpage {
+    height: 730px;
+    width: auto;
+    /*border: 1px solid black;*/
+    margin-top: 0;
+    text-align: center;
+    background-image: url('detailbacground.png');
+    background-size: 100% 100%;
+}
+
+.triptype {
+    margin-top: 3%;
+    height: 5%;
+    width: 100%;
+    /*border: 1px solid black;*/
+    text-align: center;
+    display: inline-block;
+}
+
+    .triptype .buttonstyle {
+        height: 5%;
+        width: 20%;
+        /*border: 1px solid black;*/
+        border-radius: 10px;
+        display: inline-block;
+         font-size: 150%;
+    }
+    .triptype .buttonstyle2 {
+        height: 5%;
+        width: 20%;
+        /*border: 1px solid black;*/
+        border-radius: 10px;
+        display: inline-block;
+         font-size: 150%;
+    }
+
+.cityname {
+    height: 15%;
+    width: 100%;
+    /*border: 1px solid black;*/
+    text-align: center;
+    display: inline-block;
+    /*vertical-align:middle;*/
+}
+
+    .cityname .block {
+        height: 70%;
+        /*text-align: left;*/
+        width: 15%;
+        /*border: 1px solid black;*/
+        display: inline-block;
+        font-size: 150%;
+    }
+
+    .cityname .img {
+        height: 50%;
+        width: 4%;
+        /*border: 1px solid black;*/
+        display: inline-block;
+        /*vertical-align:middle;
+        float:none;*/
+        /*margin-top:2%;*/
+    }
+
+.numpersons {
+    height: 10%;
+    width: 100%;
+    /*border: 1px solid black;*/
+    text-align: center;
+    display: inline-block;
+}
+
+    .numpersons .block2 {
+        height: 100%;
+        /*text-align: left;*/
+        width: 15%;
+        /*border: 1px solid black;*/
+        display: inline-block;
+        font-size: 150%;
+    }
+
+.dateselect {
+    height: 33.5%;
+    margin-top:3%;
+    width: 100%;
+    /*border: 1px solid black;*/
+    text-align: center;
+    display: inline-block;
+}
+
+    .dateselect .block3 {
+        height: 100%;
+        width: 20%;
+        /*border: 10px solid black;*/
+        display: inline-block;
+        font-size: 150%;   }
+    .dateselect .block32 {
+        height: 100%;
+        width: 20%;
+        /*border: 10px solid black;*/
+        display: inline-block;
+        font-size: 150%;   }
+
+

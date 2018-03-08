@@ -1,0 +1,36 @@
+﻿.firstpage {
+    height: 733px;
+    width: 100%;
+    /*border: 1px solid black;*/
+    background-image:url("login_page_layout.jpg");
+    background-size:117% 111%;
+    padding-top: 0;
+    margin-bottom:0;
+    text-align:center;
+    display:inline-block;
+}
+
+    .firstpage .image {
+        height: 4%;
+        width: auto;
+        /*border: 1px solid black;*/
+        margin-top: 3%;
+        display:inline-block;
+
+    }
+
+    .firstpage .textbox {
+        height: 5%;
+        width: 13%;
+        /*border: 1px solid black;*/
+        display:inline-block;
+   }
+
+    .firstpage .buttonbox {
+        height: 9%;
+        width: 9%;
+        border: 1px solid black;
+        display:inline-block;
+
+    }
+    

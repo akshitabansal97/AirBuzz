@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="login_page_layout.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div class="main body">
+        <div class="firstpage">
+            <div class="image">
+                <img src="loginpic.png" height="100%" width="20%" />
+            </div>
+            <br />
+            <br />
+            <form action="<?php echo $current_file;?>" method="POST">
+                <div class="textbox">
+                    <div class="input-group">
+                        <!--<span class="input-group-addon" id="basic-addon1">Username</span>-->
+                        <input type="text" name="username" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="textbox">
+                    <div class="input-group">
+                        <!--<span class="input-group-addon" id="basic-addon1">Username</span>-->
+                        <input type="password" name="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <button type="submit" class="btn btn-primary">Login</button>
+                <br />
+                <br />
+                <button type="button" class="btn btn-primary" onclick="location = 'register.php'">Register</button>
+                
+                <!--<input type="submit" value="LogIn">
+                <input type="button" value="Register" onclick="location = 'register.php'">-->
+            </form>
+        </div>
+    </div>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>
+
